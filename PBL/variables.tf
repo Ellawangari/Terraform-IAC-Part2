@@ -38,6 +38,14 @@ variable "name" {
   default = "DEV"
 
 }
+variable "environment" {
+
+  type = string
+
+
+}
+
+
 variable "tags" {
   description = "A mapping of tags to assign to all resources."
   type        = map(string)

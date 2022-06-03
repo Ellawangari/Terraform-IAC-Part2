@@ -14,9 +14,12 @@ preferred_number_of_public_subnets = 2
 
 preferred_number_of_private_subnets = 4
 
+environment = "Dev"
+
 tags = {
   Enviroment      = "Development"
   Owner-Email     = "elamaina8@gmail.com"
   Managed-By      = "Terraform"
-  Billing-Account = "1234567890"
+  
+
 }
