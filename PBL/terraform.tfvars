@@ -17,9 +17,9 @@ preferred_number_of_private_subnets = 4
 environment = "Dev"
 
 tags = {
-  Enviroment      = "Development"
-  Owner-Email     = "elamaina8@gmail.com"
-  Managed-By      = "Terraform"
-  
+  Enviroment  = "Development"
+  Owner-Email = "elamaina8@gmail.com"
+  Managed-By  = "Terraform"
+
 
 }

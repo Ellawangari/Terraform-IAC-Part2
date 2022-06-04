@@ -38,7 +38,7 @@ resource "aws_acm_certificate_validation" "project17" {
 # create records for tooling
 resource "aws_route53_record" "tooling" {
   zone_id = data.aws_route53_zone.project17.zone_id
-  name    = "tooling.oyindamola.gq"
+  name    = "tooling.project15.tk"
   type    = "A"
 
   alias {
@@ -51,7 +51,7 @@ resource "aws_route53_record" "tooling" {
 # create records for wordpress
 resource "aws_route53_record" "wordpress" {
   zone_id = data.aws_route53_zone.project17.zone_id
-  name    = "wordpress.oyindamola.gq"
+  name    = "wordpress.project15.tk"
   type    = "A"
 
   alias {
@@ -60,3 +60,5 @@ resource "aws_route53_record" "wordpress" {
     evaluate_target_health = true
   }
 }
+
+
