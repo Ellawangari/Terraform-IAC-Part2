@@ -63,3 +63,23 @@ variable "tags" {
   type        = map(string)
   default     = {}
 }
+
+
+variable "account_no" {
+
+  type        = number
+  description = "the account number"
+
+}
+variable "master-username" {
+
+  type        = string
+  description = "RDS admin username"
+
+}
+variable "master-password" {
+
+  type        = string
+  description = "RDS master password"
+
+}

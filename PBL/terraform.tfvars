@@ -14,16 +14,25 @@ preferred_number_of_public_subnets = 2
 
 preferred_number_of_private_subnets = 4
 
-environment = "Dev"
+environment = "production"
 
-ami = ""
+ami = "ami-0b0af3577fe5e3532"
 
 keypair = "redhatkey"
 
+
+account_no = "081243314443"
+
+db-username = "admin"
+
+db-password = "admin12345"
+
 tags = {
-  Enviroment  = "Development"
-  Owner-Email = "elamaina8@gmail.com"
-  Managed-By  = "Terraform"
+  Enviroment      = "Production"
+  Owner-Email     = "elamaina8@gmail.com"
+  Managed-By      = "Terraform"
+  Billing-Account = "081243314443"
 
 
 }
+
